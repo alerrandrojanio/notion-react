@@ -12,11 +12,13 @@ module.exports = {
           bg: "#191919",
           aside: "#202020",
           border: "#373737",
+          textMenu: "#9B9B9B",
         },
         light: {
           bg: "#FFFFFF",
           aside: "#FBFBFA",
           border: "#E1E1E1",
+          textMenu: "#6D6C68",
         },
       },
     },
