@@ -6,7 +6,21 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        dark: {
+          bg: "#191919",
+          aside: "#202020",
+          border: "#373737",
+        },
+        light: {
+          bg: "#FFFFFF",
+          aside: "#FBFBFA",
+          border: "#E1E1E1",
+        },
+      },
+    },
   },
   plugins: [require("@tailwindcss/typography")],
+  darkMode: "class",
 }
