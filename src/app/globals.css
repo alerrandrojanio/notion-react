@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+.menu-button {
+  @apply w-full flex items-center gap-2 rounded hover:bg-zinc-200 px-2 py-1 text-light-textMenu dark:text-dark-textMenu dark:hover:bg-zinc-800;
+}
